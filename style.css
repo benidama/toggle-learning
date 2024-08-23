@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: hsl(234, 14%, 74%);
+  gap: 30px;
+}
+
+.second-content {
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #d6eeee;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.middle {
+  background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
+
+.price-category {
+  background-color: hsl(240, 78%, 98%);
+}
+
+.button {
+  background-color: hsl(233, 13%, 49%);
+}
+
+input {
+  -webkit-appearance: none;
+  position: relative;
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #ddd;
+  transition: 0.5s;
+  outline: none;
+  cursor: pointer;
+}
+
+input::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  transform: translate(-40%, -40%);
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: white;
+  transition: left 0.3s;
+}
+
+input:checked {
+  background-color: aqua;
+}
+
+input:checked::after {
+  left: 25px;
+}
