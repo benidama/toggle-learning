@@ -13,7 +13,8 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Linear Gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%)
+- Linear Gradient: hsl(236, 72%, 79%) to
+  hsl(237, 63%, 64%)
 
 ### Neutral
 
@@ -34,3 +35,7 @@ The designs were created to the following widths:
 - Weight: 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+
+## Helpful resources
+
+How to create a toggle switch input in css https://youtu.be/0QJP5-Hyndw
